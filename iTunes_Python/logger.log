@@ -1,0 +1,11 @@
+DEBUG:root:https://itunes.apple.com/us
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57148/session/22e852dff8a3a5684e4ac9a425d04d29/url {"url": "https://itunes.apple.com/us", "sessionId": "22e852dff8a3a5684e4ac9a425d04d29"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:57148/session/22e852dff8a3a5684e4ac9a425d04d29/url {"sessionId": "22e852dff8a3a5684e4ac9a425d04d29"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://itunes.apple.com/us/genre/music/id34
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:57148/session/22e852dff8a3a5684e4ac9a425d04d29/source {"sessionId": "22e852dff8a3a5684e4ac9a425d04d29"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57148/session/22e852dff8a3a5684e4ac9a425d04d29/element {"using": "xpath", "sessionId": "22e852dff8a3a5684e4ac9a425d04d29", "value": "(//div[@id='media-type-nav']/ul/li/a)[2]"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57148/session/22e852dff8a3a5684e4ac9a425d04d29/element/0.8717114997327851-1/click {"sessionId": "22e852dff8a3a5684e4ac9a425d04d29", "id": "0.8717114997327851-1"}
